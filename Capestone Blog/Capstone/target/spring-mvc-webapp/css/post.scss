@@ -1,0 +1,33 @@
+#navbar{
+    padding-bottom: 40px;
+    padding-top: 10em;
+    
+    a{
+        font-size: 25px;
+        color: white;
+        font-family: comicF;
+        display: inline;
+        text-shadow: 10px 10px 5px white;
+        padding-right: 40px;
+        display: block;
+        text-align:center;
+        text-shadow: 1px 1px black;
+        text-decoration: none;
+    }
+    ul{
+        list-style-type: none;
+        margin:0 auto;
+        text-align:center;
+        padding-left: 0px;
+    }
+    li{
+        display: inline-block;
+        text-align: center;
+    }
+    a:hover { 
+        color: #ededed;
+    }
+}
+.author{
+    color:#888 ;
+}

@@ -1,0 +1,38 @@
+
+--Home--
+The user sees a post they like and clicks on it to read more.
+The user sees a tag they like and clicks to see posts with that tag.
+
+
+--Search--
+The user enters an article title or tag into the search bar to find related posts.
+
+
+--About--
+The user wants to know more about the shop and clicks on the About link.
+
+
+--Order Now--
+The user wishes to place an online order and clicks the Order Now link.
+The user adds items to their order and selects a pickup time. The user is given a total. They click the Place Order button to finalize their order.
+The user adds items to their order, then removes them.
+The user adds items to their order, then clicks the Place Order button. They are prompted to select a pickup time.
+
+
+--Calendar--
+The user wants to know about shop events and clicks on the calendar for more info.
+
+
+--Admin--
+The admin clicks the login link and provides their username and password. They now have access to admin features.
+The admin logs in and clicks the post link. They arrive at the post editing page with TinyMCE. The enter a post and click submit. The post is now displayed on the front page.
+The admin logs in and clicks the post link. They click the delete post button on a post, and the post is deleted.
+The admin logs in and clicks the post link. They add tags to a post and click save. The post has been updated with the newly added tags.
+The admin logs in and clicks the post link. They remove tags from a post and click save. The post is updated with tags removed.
+The admin logs in and clicks the post link. They see new posts added by the secondary admin ready for approval. They approve the posts and the posts are now displayed on the front page.
+The admin logs in and clicks the post link. They see new posts added by the secondary admin ready for approval. They decline the posts and the posts are discarded.
+
+
+--Secondary Admin--
+The secondary admin clicks the login link and provides their username and password. They now have access to secondary admin features.
+The secondary admin logs in and clicks the post link. They arrive at the post editing page with TinyMCE. The enter a post and click submit. The post is submitted to the admin for approval.

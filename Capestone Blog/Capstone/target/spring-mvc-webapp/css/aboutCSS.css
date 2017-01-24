@@ -1,0 +1,151 @@
+
+#logo{
+    text-align: center;
+    padding-top: 8em;
+}
+#titleImage{
+    height: 65em;
+    background-size: cover;
+    filter: grayscale(30%);
+    -webkit-filter: grayscale(50%);   
+}
+#logo img{
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,1));
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#000000')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#000000')";
+    padding-bottom: 5em;
+}
+#navbar a{
+    font-size: 2em;
+    color: white;
+    font-family: comicF;
+    display: inline;
+    text-shadow: 10px 10px 5px white;
+    padding-right: 1.5em;
+    display: block;
+    text-align:center;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+}
+#navbar ul {
+    
+    list-style-type: none;
+    margin:0 auto;
+    text-align:center;
+    padding-left: 0px;
+}
+#navbar li {
+    display: inline-block;
+    text-align: center;
+}
+#block2{
+    background-color: beige;
+    height: 100%;
+}
+#about{
+    height: 100%;
+    width: 100%;   
+    background-size: cover;
+    filter: grayscale(40%);
+    -webkit-filter: grayscale(50%);  /* For Webkit browsers */
+   }
+#about div{
+    text-align: center;
+    font-family: normalA;
+    font-size: 2em; 
+    background-color: rgba(60, 54, 53, .3);
+    height: 100%;
+}
+
+#about h1{    
+    padding-top: 1em;
+    color: #FAE9C4;
+}
+#about p{
+    padding-left: 1em;
+    padding-right: 1em; 
+    padding-bottom: 2em;
+    font-family: normalA;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+#line1 {
+    border: 0;
+    height: 1px;
+    width: 70%;
+    background-image: linear-gradient(to right, rgba(75,63,54, 0), rgba(75,63,54, 0.75), rgba(75,63,54, 0));
+}
+#team{
+    padding-top: 2em;
+   
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+#team p{
+    padding-top: 0px;
+    font-family: normal;
+}
+#team h{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    /*    color: #3C3635;*/
+    font-family: comicC;
+}
+.teamDiv{
+    padding-top: 3em;
+    border-radius: 25%; 
+    text-align: center;   
+    width: 100%;
+    padding-bottom: 2em;;
+}
+#infoGeneral{ 
+    padding-top: 2em;
+    width: 100%;
+    height: auto;
+    background-color: #4D3F36;
+    text-align: center;
+    border-bottom: 4px #FAE9C4 solid;
+    filter: grayscale(20%);
+    -webkit-filter: grayscale(20%); 
+    
+}
+#infoGeneral p{
+    font-family: normal;
+    border-top: 0px;
+    color: white;
+    font-size: 1em;
+}
+#infoGeneral p:first-of-type{
+    padding-top: 1em;
+}
+.underScoreInfoGeneral{
+    padding-top: 1px;
+    
+    margin: 0 auto;
+    background-color: #FAE9C4;
+    width: 5%;
+    height: 4px;
+}
+
+.io{
+    padding-bottom: 2em;
+}
+.socialIcons{
+    padding-top: 10px;
+}
+#map { 
+       width: 100%;
+       height: 350px;
+}
+#footer {
+    width: 100%;
+    height: 30px;
+    background-color: #3C3635;
+}
+#navbar a:hover { 
+    color: #ededed;
+}

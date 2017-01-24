@@ -1,0 +1,161 @@
+
+#title{
+    text-align: center;
+    padding-top: 40px;
+}
+#titleImage{
+    height: 1900px;
+    padding-top: 40px;
+    background-size: cover;
+    filter: grayscale(30%);
+    -webkit-filter: grayscale(50%); 
+}
+@font-face{
+    font-family: "comicF";
+    src: url(../font/Kaushan.otf) format('truetype');
+}
+
+#navbar a{
+    font-size: 25px;
+    font-family: normalA;
+    color: white; 
+}
+#navbar{
+    text-align: center;
+    margin: auto;
+
+}
+.postBox{
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, .2);
+    width: 100%;
+}
+
+.postBox{
+    font-family: cursive, impact;
+    color: black;
+    padding: 20px 20px 20px 20px;
+}
+
+#hashBox{
+    margin-top: 10px;
+}
+#tokenfield{
+    background-color: white;
+    opacity: 0.3;
+}
+#about{
+    height: 800px;
+    width: 100%;   
+    background-size: cover;
+    filter: grayscale(40%);
+    -webkit-filter: grayscale(50%);  /* For Webkit browsers */
+}
+#about div{
+    text-align: center;
+    padding-top: 30px;
+    font-family: normalA;
+    font-size: 30px; 
+    background-color: rgba(60, 54, 53, .3);
+    height: 100%;
+}
+
+#about h1{    
+    padding-top: 65px;
+    color: #FAE9C4;
+    font-size: 99px;
+}
+#about p{
+    padding-left: 50px;
+    padding-right: 50px;  
+    font-family: normalA;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#line1 {
+    border: 0;
+    height: 1px;
+    width: 70%;
+    background-image: linear-gradient(to right, rgba(75,63,54, 0), rgba(75,63,54, 0.75), rgba(75,63,54, 0));
+}
+#team{
+    padding-top: 25px;
+    background-color:  white;
+    width: 100%;
+    height: 660px;
+    text-align: center;
+}
+#team p{
+    padding-top: 0px;
+    font-family: normal;
+    font-size: 19px;
+}
+#team h{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    /*    color: #3C3635;*/
+    font-family: comicC;
+}
+
+.teamDiv{
+    padding-top: 35px;
+    border-radius: 25%; 
+    text-align: center;     
+}
+#infoGeneral{
+    padding-top: 30px;  
+    width: 100%;
+    height: 280px;
+/*    background-color:  #3C3635; */
+     background-color:    #4D3F36;
+    /*    #4b433b*/
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 4px #FAE9C4 solid;
+     filter: grayscale(20%);
+    -webkit-filter: grayscale(20%); 
+
+}
+#infoGeneral p{
+    font-family: normal;
+    border-top: 0px;
+    color: white;
+    font-size: 20px;
+}
+#infoGeneral p:first-of-type{
+    padding-top: 9px;
+}
+.underScoreInfoGeneral{
+    padding-top: 1px;
+    margin: 0 auto;
+    background-color: #FAE9C4;
+    width: 70px;
+    height: 4px;
+}
+
+.socialIcons{
+    padding-top: 10px;
+}
+
+#asf{
+    height: 900px;
+    width:100%;
+    background-color: #3C3635;
+}
+.navbar-custom.top-nav-collapse {
+    padding: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background: #000;
+}
+
+#map {
+       width: 100%;
+       height: 350px;
+}
+#footer {
+    width: 100%;
+    height: 30px;
+    background-color: #3C3635;
+}
