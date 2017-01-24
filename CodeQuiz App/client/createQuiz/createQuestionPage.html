@@ -1,0 +1,70 @@
+<template name="createQuestionPage">
+
+	{{> quizCreateQuesHead}}
+	{{> quizCreateQues}}
+
+</template>
+
+<template name="quizCreateQuesHead">
+
+	<div class="container-fluid page-title">
+		<h1>Create Question</h1>
+		<i class="fa fa-chevron-right"></i>
+	</div>
+</template>
+
+<template name="quizCreateQues">
+
+<div class="container-fluid background">
+		<div class="quizCreateBody col-md-8 col-md-offset-2" id="QuizCreationField">
+			<form id="creationForm" class="form-horizontal col-md-10 col-md-offset-1 ">
+			
+								<!-- +++++++++++++++++ Question Field +++++++++++++++++ -->
+				<div class="form-group">
+					<div class="row">
+					 	<div class="col-md-10 questionField">
+					   		 <label for="">Question</label>
+					   		<!--  <input type="text"  placeholder="" > -->
+					   		<input type="text" class="form-control" id="questionField" placeholder="" maxlength="250">
+					    </div><!-- /col md 10 -->
+				     </div><!-- /row -->
+				</div>			<!-- xxxxxxxxxxxxxxxxx /Question Field xxxxxxxxxxxxxxxxx-->
+			   
+								<!-- +++++++++++++++++ Answer Field +++++++++++++++++ -->
+
+			    <div class="form-group" id="AnsField">
+			    	<div class="row">
+				    	<div class="col-md-10">
+				    		<label for="">Answer</label>
+				    		<div class="input-group">
+					    		<span class="input-group-addon" >
+					      			<input type="radio"  name="answer" class="radio" checked="checked"> 
+					  		    </span>
+						   		<input type="text" class="form-control ansField"  placeholder="" maxlength="250">
+					   		</div>
+					    </div><!-- /input group-->
+					</div><!-- /row-->
+					<div class="row">
+				    	 <div class="col-md-10">
+				    	 	<label for="">Answer</label>
+				    		<div class="input-group">
+					    		<span class="input-group-addon" >
+					      			<input type="radio"  name="answer" class="radio"> 
+					  		    </span>
+						   		<input type="text" class="form-control ansField" placeholder="" maxlength="250">
+					   		</div>
+					    </div><!-- /input group-->
+					</div><!-- /row-->
+			    </div><!-- /Form-group -->
+			    <div class="col-md-8">
+			 		 <button type="submit" class="btn btn-primary btn-xl" id="addAns"><i class="fa fa-plus-square"></i></button>
+			    </div>
+
+			  			    	<!-- xxxxxxxxxxxxxxxxx /Answer Field xxxxxxxxxxxxxxxxx-->
+			  	<div class="col-md-8">
+			 		 <button type="submit" class="btn btn-danger btn-xl" id="finishQues"><i class="fa fa-plus"></i>  Finish Question</button>
+			    </div>
+			</form>
+	</div>
+</div>
+</template>

@@ -1,0 +1,14 @@
+.background1{
+	min-height: 100vh;
+	background-image: url("/others/gradientcolored.jpg");
+}
+.header1{
+	background-color: rgba(255,255,255,0.3);
+	a{
+	color: white;
+	background: url("/others/gradientcolored.jpg") no-repeat;;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+	}
+
+}

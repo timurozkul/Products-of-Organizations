@@ -1,0 +1,78 @@
+<template name="createQuizPage">
+	{{> quizCreateHead}}
+	{{> quizCreateBody}}
+	
+</template>
+
+
+<template name="quizCreateHead">
+	<div class="container-fluid page-title">
+		<h1><a href='/'>Quiz Booklet</a></h1>
+		<div id="login-screen">
+			{{> loginButtons}}
+		</div>
+	</div>
+</template>
+
+<template name="quizCreateBody">
+	<div class="background">
+			<div class="quizCreateBody col-md-8 col-md-offset-2" id="QuizCreationField">
+				
+					<form id="creationFormHeader" class="col-md-10 col-md-offset-1 creationFormHeader">
+						<div class="form-group">
+							 <label for="">Title</label>
+							 <input type="text" class="form-control" id="titleField" placeholder="" maxlength="100" minlength="4">
+							 <label for="">Theme</label>
+							<select id="themeField" class="themeField">
+								<option value="Celebrity">Celebrity</option>
+								<option value="Fun">Fun</option>
+								<option value="Food">Food</option>
+								<option value="General">General</option>
+								<option value="History">History</option>
+								<option value="Science">Science</option>
+								<option value="Sports">Sports</option>
+								<option value="Programming">Programming</option>
+							</select>
+							<label for="">Time per Question</label>
+							<input id="minuteField" type="number" max="60" min="0"> Minutes
+							<input id="secondField" type="number" max="60" min="0" step="5"> Seconds
+							<div>
+								<div class="checkboxes">
+									<div class="privateCheckBox">
+										 <input type="checkbox" name="isPrivate" value="isPrivate" id="isPrivate"> Private
+									</div>
+ 									<div class="expireCheckBox">
+										 <input type="checkbox" name="expires" value="expires" id="expires"> Expires
+										 <input type='date' class='expireDate' id="expiringDate" min="2016-02-24">
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+					<div class="col-md-10 col-md-offset-1 quizCreateFooter">
+					 	<button type="submit" class="btn btn-primary btn-xl" id="addQues"><i class="fa fa-plus-square"></i> Question</button>
+					 		{{> displayQuestions}}
+					 	<button type="submit" class="btn btn-danger btn-xl" id="finishQues"><i class="fa fa-rocket"></i> Finish</button>
+					</div>
+			</div>
+	</div>
+	
+</template>
+
+<template name="displayQuestions">
+
+	{{#each displayer.questions}}
+		<div id="displayQues" class="displayQues">
+			<div class="quesDisplay">
+				 <p>{{question}}  <i class="fa fa-trash" id="{{index}}"></i> <i class="fa fa-pencil" id="{{index}}"></i></p>
+			</div>
+			{{#each answers}}
+			<div class="answerDisplay">
+				<p>{{answer}}</p>
+			</div>
+			{{/each}}
+			
+		</div>
+	{{/each}}
+
+</template>

@@ -1,0 +1,37 @@
+<template name="playQuizPage">
+	<div class="container-fluid page-title">
+		<h1>{{quiz.quizName}}</h1>
+		<label for="">{{quiz.theme}}</label>
+	</div>
+
+	{{> quizQuestion }}
+
+</template>
+
+<template name="quizQuestion">
+	<div class="background">
+		<div class="quizCreateBody col-md-8 col-md-offset-2">
+			<h1>{{question.question}}</h1>{{clock}}<!-- sets the timer -->
+			<h1>{{clockDisplay}}</h1>
+		    <div class="form-group" id="AnsField">
+		    	{{# each question.answers }}
+		    		{{> questionRow }}
+				{{/each}}
+		    </div><!-- /Form-group -->
+
+		    <button class="btn btn-primary btn-xl" id="submitAnswer"><i class="fa fa-check"></i> Submit</button>
+		</div>
+	</div>
+</template>
+
+<template name="questionRow">
+	<div class="row">
+		<div class="col-md-10">
+			<div class="input-group">
+	  			<input id='answIndex_{{ this.index }}' type="radio"  name="answer" class="radio"> 
+	  		    <p>{{this.answer}}</p>
+		   		<!--input type="text" class="form-control ansField"  placeholder="{{this.answer}}" maxlength="250" disabled-->
+	   		</div>
+	    </div><!-- /input group-->
+	</div><!-- /row-->
+</template>

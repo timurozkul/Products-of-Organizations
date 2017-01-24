@@ -1,0 +1,153 @@
+$dark-purp: #373142;
+$purp: #524763;
+$back-gry: #f1f1f1;
+
+#login-screen{
+    float: right;
+     align-text: center;
+    a{
+        color: #000;
+        text-decoration: none;
+        font-size: 0.5em;
+        align-text: center;
+	}	
+}
+.btn-xl {
+	width: 100%;
+    border-radius: 6px;
+    background-color: $back-gry;
+    border-color: $dark-purp;
+    color: $dark-purp;
+    font-size: 1.2em;
+}
+.btn-xl:hover{
+    	 border-color: #00004c;
+ }
+.expireDate{
+	 display: none;
+}
+.page-title{
+    font-size: 2em;
+    background: $purp;
+	color: #FFF;
+	box-shadow: 5px 5px 5px 5px #000000;
+	height: 100vh * .12;
+	h1 {
+        font-size: 1.6em; 
+        float: left;
+     }
+     .fa-chevron-right{
+     padding-top: 35px;
+     float: right;
+
+     }
+
+	-webkit-box-shadow: inset -3px -23px 88px -28px rgba(102,102,102,1);
+	-moz-box-shadow: inset -3px -23px 88px -28px rgba(102,102,102,1);
+	box-shadow: inset -3px -23px 88px -28px rgba(102,102,102,1);
+}
+
+.background{
+	background: $back-gry;
+	min-height: 100vh;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+	-webkit-box-shadow: inset 1px 200px 11px -200px rgba(55,49,66,1);
+	-moz-box-shadow: inset 1px 200px 11px -200px rgba(55,49,66,1);
+	box-shadow: inset 1px 200px 11px -200px rgba(55,49,66,1);
+}
+
+.quizCreateBody{
+	
+	background: #ffffff;
+	padding-bottom: 3em;
+	
+	-webkit-box-shadow: 0px 2px 11px 0px  rgba(55,49,66,1),
+	 inset 1px 200px 11px -200px rgba(55,49,66,1);
+	-moz-box-shadow:  0px 2px 11px 0px rgba(55,49,66,1),
+	inset 1px 200px 11px -200px rgba(55,49,66,1);
+	box-shadow:  0px 2px 11px 0px rgba(55,49,66,1),
+	 inset 1px 200px 11px -200px rgba(55,49,66,1); 
+
+	label{
+	font-size: 2em;
+	font-family: light;
+	padding-top: 1em;
+	 color: $dark-purp;
+	margin-top: 0px;
+	}
+	#AnsField{
+	padding-top: 0em;
+	padding-bottom: 2em;
+	}
+}
+.creationFormHeader{
+	padding-top: 1em;	
+}
+.themeField{
+    background: #fff;
+    border: 1px solid #D3D3D3;
+    font-size: 1.1em;
+    font-color: #545454;
+    width: 9em;
+    height: 2em;
+    display: block;    
+}
+.checkboxes{
+	padding-top: 2em;
+	margin-left: 0;
+	font-size: 1em;
+	.expireCheckBox{
+	padding-top: .6em;
+	padding-bottom: 1.5em;
+	}
+}
+.quizCreateFooter{
+	#finishQues{
+	margin-top: 2em;
+	}
+}
+
+.displayQues{
+padding-top: 2em;
+
+	.quesDisplay{
+	color: $dark-purp;
+	font-size: 1.3em;
+	background-color: $back-gry;
+	border-radius: 6px;
+	text-align: center;
+	}
+	.answerDisplay{
+	font-size: 1.1em;
+	color: $dark-purp;
+	background-color: $back-gry;
+	 border-radius: 6px;
+	 text-align: center;
+	 width: 90%;
+	 margin: auto;
+	}
+	.fa-pencil{
+	float: right;
+	padding-right: 8px;
+	padding-top: 3px;
+	}
+	.fa-trash{
+	float: right;
+	padding-right: 8px;
+	padding-top: 3px;
+	}
+	.fa-trash:hover{
+	color:#660000;
+	}
+	.fa-pencil:hover{
+	color: $dark-purp;
+	}
+}
+
+
+
+

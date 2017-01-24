@@ -1,0 +1,32 @@
+<template name="scoreBoard">
+<div class="container-fluid page-title">
+	<h1>{{quiz.quizName}}</h1>
+	<label for="">{{quiz.theme}}</label>
+</div>
+
+{{> score}}
+
+</template>
+
+<template name="score">
+<div class="background">
+	<div class="quizCreateBody col-md-8 col-md-offset-2">
+		<h1>You ranked:</h1>
+		<ol>
+		{{#each score.usersWhoPlayed}}
+			{{#if isUser user}}
+			
+			 <li><p style="font-weight: bold;"> - {{score}} - {{user}}</p></li>
+			 {{else}}
+			 <li>  - {{score}} - {{user}}</li>
+			
+			{{/if}}
+		{{/each}}
+		</ol>
+		<button type="submit" class="btn btn-danger btn-xl" id="goHome"><i class="fa fa-fort-awesome"></i> Go Home</button>
+			
+	
+	</div>
+</div>
+</template>
+
