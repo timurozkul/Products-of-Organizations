@@ -4,6 +4,7 @@
 <h3>Capstone Blog</h3>
 Final project for The Software Guild apprentice program. - *2015 Nov*
 
+
 >Java, Spring, Javascript, JQuery, Bootstrap
                       
 <h3>CodeQuiz App</h3> 
