@@ -42,7 +42,6 @@ Project given by Dengun to help learn Meteor framework. - *2016 Feb*
 { PRIVATE }
 
 Full fledge commercial mobile/web application developed by Superfastpixels.io with a team of 3 people. - *2016 Oct*
-
 >Javascript, Meteor.js, MongoDB, JQuery, Underscore.js, Bootstrap
                                             
 <h3>OtterSwim-Meteor</h3>
