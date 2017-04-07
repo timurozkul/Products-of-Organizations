@@ -16,10 +16,12 @@ Requested plug-in for current hotel software. - *2016 Mar*
 
 <h3>Number26 Challange</h3>
 A Java Challange I completed. - *2016 Jan*
+
 >Java
                       
 <h3>Personal Website</h3>
 Own choice, to have a web presence. - *2016 Jan*
+
 >Javascript, JQuery, SASS, Bootstrap
                       
 <h3>Shopping App</h3>
