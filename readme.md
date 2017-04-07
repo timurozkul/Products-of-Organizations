@@ -22,6 +22,7 @@ A Java Challange I completed. - *2016 Jan*
 >Java
 
 <h3>Peats</h3>
+
 >{Private}
 Freelance work, similar application to LinkedIn in regards to functionality. - *2017 Jan*
 
