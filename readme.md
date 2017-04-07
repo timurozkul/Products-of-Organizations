@@ -22,8 +22,8 @@ A Java Challange I completed. - *2016 Jan*
 >Java
 
 <h3>Peats</h3>
+`{Private}`
 
->{Private}
 Freelance work, similar application to LinkedIn in regards to functionality. - *2017 Jan*
 
 >Javascript, Meteor, MongoDB, React, SASS, Foundation
