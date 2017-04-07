@@ -22,7 +22,7 @@ A Java Challange I completed. - *2016 Jan*
 >Java
 
 <h3>Peats</h3>
-`{Private}`
+{ PRIVATE }
 
 Freelance work, similar application to LinkedIn in regards to functionality. - *2017 Jan*
 
@@ -39,14 +39,15 @@ Project given by Dengun to help learn Meteor framework. - *2016 Feb*
 >Javascript, Meteor.js, MongoDB, JQuery, SASS, Bootstrap
                      
 <h3>Portal-Meteor (Manta-Play)</h3>
-{Private}
+{ PRIVATE }
 
 Full fledge commercial mobile/web application developed by Superfastpixels.io with a team of 3 people. - *2016 Oct*
 
 >Javascript, Meteor.js, MongoDB, JQuery, Underscore.js, Bootstrap
                                             
 <h3>OtterSwim-Meteor</h3>
-{Private}
+{ PRIVATE }
+
 website developed by Superfastpixels.io, entire Javascript written by me. - *2016 Oct*
 
 >Javascript, Meteor.js, MongoDB, JQuery, SASS, Bootstrap
