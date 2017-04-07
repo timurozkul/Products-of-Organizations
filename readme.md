@@ -2,7 +2,6 @@
 *Detailed information within the individual projects in the Readme's.*
 
 <h3>Capstone Blog</h3>
-
 Final project for The Software Guild apprentice program. - *2015 Nov*
 >Java, Spring, Javascript, JQuery, Bootstrap
                       
@@ -39,6 +38,7 @@ Project given by Dengun to help learn Meteor framework. - *2016 Feb*
                      
 <h3>Portal-Meteor (Manta-Play)</h3>
 {Private}
+
 Full fledge commercial mobile/web application developed by Superfastpixels.io with a team of 3 people. - *2016 Oct*
 
 >Javascript, Meteor.js, MongoDB, JQuery, Underscore.js, Bootstrap
