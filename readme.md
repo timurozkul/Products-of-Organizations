@@ -45,7 +45,7 @@ Full fledge commercial mobile/web application developed by Superfastpixels.io wi
                                             
 <h3>OtterSwim-Meteor { PRIVATE }</h3>
 Website developed by Superfastpixels.io, entire Javascript written by me. - 2016 Oct
-
+ 
 >Javascript, Meteor, MongoDB, JQuery, SASS, Bootstrap
                      
          
