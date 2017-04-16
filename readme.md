@@ -33,7 +33,7 @@ Own choice, to have a web presence. - 2016 Jan
 
 >Javascript, JQuery, SASS, Bootstrap
                       
-<h3>Shopping App</h3>
+<h3>Shopping App</h3> 
 Project given by Dengun to help learn Meteor framework. - 2016 Feb
 
 >Javascript, Meteor, MongoDB, JQuery, SASS, Bootstrap
