@@ -6,7 +6,7 @@ Final project for The Software Guild apprentice program. - 2015 Nov
 
 
 >Java, Spring, Javascript, JQuery, Bootstrap
-                      
+                     
 <h3>CodeQuiz App</h3> 
 Project given from Dengun where I was interning. - 2016 Apr
 
