@@ -12,16 +12,6 @@ Project given from Dengun where I was interning. - 2016 Apr
 
 >Javascript, Meteor, MongoDB, JQuery, Bootstrap
 
-<h3>Converter Addon</h3>
-Freelance work, Requested plug-in for current hotel software. - 2016 Mar
-
->Java, Apache POI
-
-<h3>Number26 Challange</h3>
-A Java Challange I completed. - 2016 Jan
-
->Java
-
 <h3>Peats { PRIVATE }</h3>
 
 Freelance work, similar application to LinkedIn in regards to functionality. - 2017 Jan
