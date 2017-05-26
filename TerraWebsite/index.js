@@ -7,7 +7,7 @@ const button2 = document.getElementById('button2');
 const button3 = document.getElementById('button3');
 
 let currentSlide = 0;
-let slideInterval = setInterval(nextSlide,3000);
+let slideInterval = setInterval(nextSlide,5000);
 
 function nextSlide(onClick) {
     slides[currentSlide].className = 'slide';
@@ -16,7 +16,7 @@ function nextSlide(onClick) {
     currentSlide = typeof onClick === 'number' ? onClick : (currentSlide+1)%slides.length;
 
     slides[currentSlide].className = 'slide showing';
-    slideButtons[currentSlide].className = 'button white';
+    slideButtons[currentSlide].className = 'button selected';
 }
 
 function pauseSlideshow() { clearInterval(slideInterval); }
