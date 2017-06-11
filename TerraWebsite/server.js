@@ -1,26 +1,26 @@
 const express = require('express');
+const path = require('path');
 
 var app = express();
 
-app.use("/css", express.static(__dirname + '/css'));
-app.use("/public", express.static(__dirname + '/public'));
-app.use("/index.js", express.static(__dirname + '/index.js'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res) {
     res.sendFile('index.html', {root: __dirname })
 });
 
-app.get('/consulting', function(req, res) {
-    res.sendFile('consulting/consulting.html', {root: __dirname })
-});
 app.get('/management', function(req, res) {
-    res.sendFile('management/management.html', {root: __dirname })
+    res.sendFile('management.html', {root: __dirname })
+});
+app.get('/consulting', function(re, res) {
+    res.sendFile('consulting.html', {root: __dirname })
 });
 app.get('/development', function(req, res) {
-    res.sendFile('development/development.html', {root: __dirname })
+    res.sendFile('development.html', {root: __dirname })
 });
-
-
+app.get('/about', function(req, res) {
+    res.sendFile('about.html', {root: __dirname })
+});
 
 
 app.listen(3000);

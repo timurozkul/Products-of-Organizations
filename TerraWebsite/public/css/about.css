@@ -1,0 +1,162 @@
+.intro{
+	display: flex;
+	padding: 45px 0 45px 50px;
+}
+
+.slogan { 
+	display: flex;
+	padding: 60px 0 60px 50px;
+	background-color: rgb(244, 244, 244); 
+}
+
+.topo {
+	position: absolute;
+	top: 89px;
+	bottom: 162px;
+	right: 0;
+	left: 0;
+	pointer-events: none;
+	overflow: auto;
+}
+
+.topo img {
+	width: 100%;
+}
+
+.intro .quote, .slogan .quote {
+	flex: 2;
+	max-width: 380px;
+	font-size: 24px;
+}
+
+
+.intro .main, .slogan .main {
+	flex: 3;
+	max-width: 770px;
+	margin-top: 30px;
+	font-size: 14px;
+}
+
+.intro .quote p { 
+	width: 82%;
+	margin: auto;
+	font-family: 'headline-font'; 
+	line-height: 1.3;
+	letter-spacing: 1.6px;
+}
+
+.slogan .quote img {
+	position: absolute;
+	width: 450px;
+}
+
+.intro .main p, .slogan .main p {
+	width: 82%;
+	margin: auto;
+	text-align: justify;
+	letter-spacing: .7px;
+	line-height: 1.4;
+}
+
+/*/////////////////    TIMELINE    /////////////////*/
+
+.timeline {
+	padding: 40px 0 40px 0;
+	background-color: rgb(4, 11, 56);
+}
+
+.timeline .moment {
+	width: 75%;
+	max-width: 910px;
+	margin: auto;
+	border-bottom: 3px solid rgb(156, 137, 79);
+}
+
+.timeline .moment > * {
+	display: inline-block;
+	color: white;
+}
+
+.timeline .moment img {
+	margin: 5px 16px 0 16px;
+	width: 25px;
+	vertical-align: middle;
+	margin-top: 1px;
+}
+
+.timeline .moment h1 {
+ 	font-size: 36px;
+ 	letter-spacing: 2px;
+ 	vertical-align: middle;
+}
+
+.timeline .moment p {
+	vertical-align: middle;
+	margin-top: 20px;
+	font-size: 16px;
+	letter-spacing: .2px;
+}
+
+.timeline .moment:last-child {
+	border-bottom: none;
+}
+
+.founder {
+	display: flex;
+	padding: 65px 0 45px 50px;
+}
+
+.founder .left {
+	flex: 2;
+}
+
+.founder .right {
+	flex: 3;
+	padding-right: 30px;
+}
+
+.founder p {
+	font-size: 14px;
+	letter-spacing: .2px;
+}
+
+/*/////////////////    icons    /////////////////*/
+
+.timeline .moment .handshake {
+	width: 60px;
+}
+
+.timeline .moment .building {
+	width: 55px;
+}
+
+.timeline .moment .building2 {
+	width: 45px;
+}
+
+.timeline .moment .network { 
+	width: 90px;
+}
+
+.timeline .moment .buying { 
+	width: 130px;
+}
+
+.timeline .moment .demonstrate { 
+	width: 50px;
+}
+
+.timeline .moment .checkboard { 
+	width: 40px;
+}
+
+.timeline .moment .summit { 
+	width: 90px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+.header {
+	display: flex;
+	width: 100%;
+	height: 90px;
+	margin:auto;
+	padding:0;
+
+	background-image: url('/img/bg/navbar.png');
+	background-size: cover; 
+	background-repeat: no-repeat;
+	-webkit-align-content: center; 
+	align-content: center; 
+}
+
+.header a {
+	flex: 1 1 250px;
+	text-align: center;
+}
+
+.header img {
+	height: 56px;
+	padding-top: 20px;
+}
+
+
+.header ul {  flex: 8 1 800px; padding: 0;  text-align: center; }
+
+.header ul li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 25px;
+
+	letter-spacing: 1.5px;
+	color: white;
+}
+
+.header ul li a:hover {
+	color: rgb(156, 137, 79);
+}
+
+/*/////////////////    footer    /////////////////*/
+
+.footer {
+	width: 100%;
+	padding-top: 10px;
+
+	background-image: url('/img/bg/footer.svg');
+	background-size: cover; 
+	-webkit-align-content: center; 
+	align-content: center;
+	font-size: 11px; 
+	color: white;
+	line-height: 2.3;
+	letter-spacing: 1.5px;
+}
+
+.footer-main { display: flex; }
+
+.footer .main-links {
+	flex: 3;
+	padding-top: 7px;
+	padding-left: 36px;
+	border-right: 1px solid white;
+	list-style-type: none;
+}
+
+.footer .sub-links {
+	flex: 3;
+	padding-top: 7px;
+	padding-left: 36px;
+	list-style-type: none;
+	border-right: 1px solid white;
+}
+
+.footer .contact-info {
+	flex: 5;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding-top: 7px;
+	padding-left: 36px;
+	border-right: 1px solid white;
+}
+
+.footer .contact-info ul {
+	margin-top: 0; 
+	list-style-type: none;
+	font-family: 'sub-font';
+	letter-spacing: 1px;
+}
+
+.footer .contact-info img { vertical-align: top; }
+
+.social-info {
+	flex: 5;
+	padding-top: 7px;
+	padding-left: 36px;
+}
+
+.social-info img {
+	display: inline-block;
+	width: 20px;
+ 	padding-bottom: 4px;
+ 	vertical-align: middle;
+}
+
+.social-info p { display: inline-block; margin-right: 10px; }
+
+.contact-info img {
+	display: inline-block;
+	width: 60px;
+	padding-bottom: 4px;
+    vertical-align: middle;
+}
+
+.contact-info ul { display: inline-block; }
+
+.copyright {
+	display: block;
+	margin: 12px 30px 0 30px;
+	padding-top: 6px;
+	padding-bottom: 4px;
+
+	font-size: 11px;
+	border-top: 1px solid rgb(166, 166, 166);
+	text-align: center;
+	color: rgb(166, 166, 166);
+	letter-spacing: 1.5px;
+	font-family: 'sub-font';
+}

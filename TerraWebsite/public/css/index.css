@@ -1,0 +1,177 @@
+
+/*/////////////////    who__we__are    /////////////////*/
+
+.who__we__are {
+	width: 100vw;
+	min-height: 110px;
+	margin-top: -1px;
+	padding: 25px 0 10px 0;
+
+	background-image: url('/img/bg/idx-who-we-are.png');
+	background-size: cover; 
+	-webkit-align-content: center; 
+	align-content: center; 
+	letter-spacing: 1.5px;
+}
+
+.who__we__are h2 {
+	margin: 0 50px 19px 96px;
+	color: rgb(250, 232, 183);
+	font-size: 20px;
+}
+
+.who__we__are p {
+	margin: 0 50px 16px 96px;
+	font-size: 14px;
+	color: #eeeeee;
+}
+
+/*/////////////////    how__we__can    /////////////////*/
+
+.how__we__can {
+	width: 100%;
+	padding-top: 45px;
+
+	background-image: url('/img/bg/idx-how-we-can.png');
+	background-size: cover; 
+	-webkit-align-content: center; 
+	align-content: center; 
+	color: rgb(0, 14, 69);
+	letter-spacing: 1.2px;
+}
+
+.how__we__can .img-arrow {
+	width: 70px;
+	padding-left: 96px;
+}
+
+.how__we__can h2 {
+	margin-top: 0;
+	padding-left: 96px;
+}
+
+.how__we__can h6 {
+	margin: 15px 0 20px 0;
+	font-size: 16px;
+}
+
+.how__we__can .categorys {
+	display: flex;
+	padding: 90px 10px 80px 10px;
+}
+
+.how__we__can .categorys .img-wrapper {	height: 75px; }
+.how__we__can .categorys img { margin: auto; width: 60px; }
+.how__we__can .development, .how__we__can .management,
+.how__we__can .consulting, .how__we__can .investment {
+	flex: 1;
+	margin: 0 45px 45px 45px;
+	text-align: center;
+}
+
+.how__we__can .management img { width: 75px; }
+
+.how__we__can .hr-line {
+	height: 3px;
+	width: 80px;
+	margin: auto;
+	background-color: rgb(191, 191, 191);
+}
+
+.company-numbers {
+	display: flex;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 20px;
+
+	font-size: 24px;
+	color: rgb(0, 32, 72);
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.1);
+}
+
+.company-numbers > div { display: relative;  flex: 1; text-align: center; }
+.company-numbers .text { display: inline-block; vertical-align: top}
+.company-numbers .title { font-size: 14px; }
+.company-numbers .people img { width: 60px; }
+.company-numbers img { width: 55px; margin-right: 4px;}
+.company-numbers p { 
+	margin: 0 0 4px 0; 
+	vertical-align: top;  
+	text-align: left;
+	font-family: 'headline-font'; 
+}
+
+/*/////////////////    strengths    /////////////////*/
+
+.strengths {
+	position: relative;
+	width: 100%;
+	margin-bottom: -1px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+
+	background-image: url('/img/bg/idx-strengths.png');
+	background-size: cover; 
+	-webkit-align-content: center; 
+	align-content: center; 
+	font-size: 14px;
+}
+
+.strengths .terra-icon-1 {
+	width: 70px;
+	position: absolute;
+	top: 40px;
+	left: 15px;
+	z-index: 0;
+}
+
+.strengths .terra-icon-2 {
+	width: 140px;
+	position: absolute;
+	right: 0;
+	top: 20px;
+	z-index: 0;
+}
+
+.strengths h2 {
+	width: 320px;
+	margin: 0 0 30px 107px;
+
+	font-size: 17px;
+	letter-spacing: 1.3px;
+	color: rgb(230, 230, 230);
+}
+
+.strengths .arrow {
+	display: inline-block;
+	flex: 1;
+	margin-top: 33px;
+	margin-right: 20px;
+	max-width: 48px;
+}
+
+.strengths .content {
+	flex: 1;
+	display: inline-block;
+	
+	z-index: 10;
+	letter-spacing: 1.2px;
+	line-height: 1.3;
+	color: rgb(230, 230, 230);
+}
+
+.strengths .second-word { color: rgb(156, 137, 79); }
+
+.strengths .row-1, .strengths .row-2 {
+	display: flex;
+	align-items: flex-start;
+	padding: 20px 40px 20px 40px; 
+    color: white;
+}
+
+.strengths p {
+	margin-top: 12px;
+	font-family: 'sub-font';
+}
+
+.strengths h6 { margin: 0; font-size: 16px; }

@@ -1,0 +1,13 @@
+body { margin: 0; font-family: 'headline-font'; }
+p { font-family: 'sub-font'; }
+a { color: white; text-decoration: none; }
+
+@font-face {
+  font-family: 'headline-font';
+  src: url('/font/din1451alt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'sub-font';
+  src: url('/font/second.otf') format('truetype');
+}

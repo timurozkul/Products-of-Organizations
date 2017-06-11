@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 685 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;">
+    <g transform="matrix(1,0,0,1,-32.372,-836.957)">
+        <g transform="matrix(1,0,0,2.04965,0.664218,-1.57948)">
+            <g transform="matrix(1.19833,0,0,1.31351,-414.687,-305.237)">
+                <g transform="matrix(0.834492,0,0,0.371439,23.1711,341.937)">
+                    <text x="526.508px" y="661.058px" style="font-family:'Didot';font-size:58.333px;fill:none;">O<tspan x="577.958px 619.783px 662.6px 706.583px " y="661.058px 661.058px 661.058px 661.058px ">FTEN</tspan></text>
+                </g>
+                <g transform="matrix(0.834492,0,0,0.371439,23.1711,341.937)">
+                    <text x="554.8px" y="586.058px" style="font-family:'Didot';font-size:58.333px;fill:rgb(0,3,54);"><tspan x="554.8px 597.617px 648.075px " y="586.058px 586.058px 586.058px ">THE</tspan></text>
+                    <text x="692.058px" y="586.058px" style="font-family:'Didot-Bold', 'Didot';font-weight:700;font-size:58.333px;fill:rgb(164,138,74);">I<tspan x="718.717px 775.65px 816.367px 867.875px 908.592px 949.308px 975.967px 1018.84px 1063.88px " y="586.058px 586.058px 586.058px 586.058px 586.058px 586.058px 586.058px 586.058px 586.058px ">MPOSSIBLE</tspan></text>
+                    <text x="440px" y="661.058px" style="font-family:'Didot';font-size:58.333px;fill:rgb(0,3,54);">I<tspan x="465.55px " y="661.058px ">S</tspan></text>
+                    <text x="526.508px" y="661.058px" style="font-family:'Didot';font-size:58.333px;fill:rgb(0,2,50);">O<tspan x="577.958px 619.783px 662.6px 706.583px " y="661.058px 661.058px 661.058px 661.058px ">FTEN</tspan></text>
+                    <text x="770.75px" y="661.058px" style="font-family:'Didot';font-size:58.333px;fill:rgb(0,3,54);">T<tspan x="813.567px 864.025px " y="661.058px 661.058px ">HE</tspan></text>
+                    <text x="440px" y="720.792px" style="font-family:'Didot';font-size:58.333px;fill:rgb(0,3,54);">U<tspan x="487.192px 532.225px 575.042px 620.075px 645.625px 689.608px 740.067px 759.2px 778.333px " y="720.792px 720.792px 720.792px 720.792px 720.792px 720.792px 720.792px 720.792px 720.792px ">NTRIED...</tspan></text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,2.04965,0.664218,-1.57948)">
+            <g transform="matrix(0.804854,0,0,0.275061,13.7019,202.993)">
+                <rect x="36.679" y="852.226" width="608.333" height="245.932" style="fill:none;stroke:black;stroke-width:3.3px;"/>
+            </g>
+        </g>
+    </g>
+</svg>
