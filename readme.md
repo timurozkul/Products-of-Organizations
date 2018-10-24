@@ -1,5 +1,11 @@
 <h3>Repo Overview</h3>
 Detailed information within the individual projects in the Readme's.
+
+<h3>Immidi { PRIVATE }</h3>
+
+Creating SASS product includes white label mobile app production and CMS for large brands such as Loreal, Unilever. - 2018 July
+
+>Javascript, Node, React Native, React, AWS
                     
       
 <h3>Peats { PRIVATE }</h3>
