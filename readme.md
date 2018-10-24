@@ -5,7 +5,7 @@ Detailed information within the individual projects in the Readme's.
 
 Creating SaaS product includes white label mobile app production and CMS for large brands such as Loreal, Unilever. - 2018 July
 
->Javascript, Node, React Native, React, AWS
+>Javascript, Node, React Native, React, AWS, SQL
                     
       
 <h3>Peats { PRIVATE }</h3>
