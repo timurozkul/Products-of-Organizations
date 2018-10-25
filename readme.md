@@ -1,6 +1,13 @@
 <h3>Repo Overview</h3>
 Detailed information within the individual projects in the Readme's.
 
+
+<h3>Monte da Quinta { PRIVATE }</h3>
+
+Headless CMS with React as front for Android web view app - 2018
+
+>Javascript, Node, React Native, React, AWS, SQL
+
 <h3>Immidi { PRIVATE }</h3>
 
 Creating SaaS product includes white label mobile app production and CMS for large brands such as Loreal, Unilever. - 2018 July
