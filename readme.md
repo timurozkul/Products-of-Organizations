@@ -4,9 +4,9 @@ Detailed information within the individual projects in the Readme's.
 
 <h3>Monte da Quinta { PRIVATE }</h3>
 
-Headless CMS with React as front for Android web view app - 2018
+Headless CMS (Prismic) with React as front-end for Android web view app - 2018
 
->Javascript, Node, React Native, React, AWS, SQL
+>Javascript, React
 
 <h3>Immidi { PRIVATE }</h3>
 
